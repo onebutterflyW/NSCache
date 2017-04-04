@@ -15,6 +15,7 @@
 		A2FB89E71E9323500013DD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB89E51E9323500013DD18 /* LaunchScreen.storyboard */; };
 		A2FB89F21E9323500013DD18 /* NSCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FB89F11E9323500013DD18 /* NSCacheTests.m */; };
 		A2FB89FD1E9323500013DD18 /* NSCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FB89FC1E9323500013DD18 /* NSCacheUITests.m */; };
+		A2FB8A0F1E93444B0013DD18 /* DataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FB8A0E1E93444B0013DD18 /* DataCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A2FB89F81E9323500013DD18 /* NSCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB89FC1E9323500013DD18 /* NSCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCacheUITests.m; sourceTree = "<group>"; };
 		A2FB89FE1E9323500013DD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FB8A0D1E93444B0013DD18 /* DataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCache.h; sourceTree = "<group>"; };
+		A2FB8A0E1E93444B0013DD18 /* DataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A2FB89DB1E9323500013DD18 /* AppDelegate.m */,
 				A2FB89DD1E9323500013DD18 /* ViewController.h */,
 				A2FB89DE1E9323500013DD18 /* ViewController.m */,
+				A2FB8A0D1E93444B0013DD18 /* DataCache.h */,
+				A2FB8A0E1E93444B0013DD18 /* DataCache.m */,
 				A2FB89E01E9323500013DD18 /* Main.storyboard */,
 				A2FB89E31E9323500013DD18 /* Assets.xcassets */,
 				A2FB89E51E9323500013DD18 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FB8A0F1E93444B0013DD18 /* DataCache.m in Sources */,
 				A2FB89DF1E9323500013DD18 /* ViewController.m in Sources */,
 				A2FB89DC1E9323500013DD18 /* AppDelegate.m in Sources */,
 				A2FB89D91E9323500013DD18 /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				A2FB8A031E9323500013DD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2FB8A041E9323500013DD18 /* Build configuration list for PBXNativeTarget "NSCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				A2FB8A061E9323500013DD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2FB8A071E9323500013DD18 /* Build configuration list for PBXNativeTarget "NSCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				A2FB8A091E9323500013DD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
